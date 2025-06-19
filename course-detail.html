@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course Detail</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1 id="courseTitle">Course Title</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+    </nav>
+  </header>
+  <main>
+    <div id="videoContainer"></div>
+
+    <h3>Progress</h3>
+    <progress id="progressBar" value="0" max="100"></progress>
+    <p id="progressText">0% Completed</p>
+    <button onclick="updateProgress()">Mark 10% Complete</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
